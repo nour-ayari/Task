@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+
+
+.font-jost {
+  font-family: 'Jost', sans-serif;
+}
+@utility container {
+  margin-inline: 1rem;
+  padding-inline: 0rem;
+
+  @media (width >= 640px) {
+    max-width: 640px;
+  }
+  @media (width >= 768px) {
+    max-width: 768px;
+  }
+  @media (width >= 1024px) {
+    max-width: 1024px;
+  }
+  @media (width >= 1280px) {
+    max-width: 1280px;
+  }
+  @media (width >= 1400px) {
+    max-width: 1400px;
+  }
+}
+
