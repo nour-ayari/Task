@@ -27,7 +27,7 @@ export const Home = () => {
     <Navbar/>
 
 
-    <div className="w-full max-w-3xl mx-auto ">
+    <div className="w-full  mx-auto ">
        <BodySection/>
           <div className="">
         <Tabs tabs={tabLabels} selected={selectedTab} onSelect={setSelectedTab} />

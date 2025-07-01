@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 export const Carousel = ({ images = [] }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const visibleCount = 3;
+  const visibleCount = 5;
   const peekWidth = 10; 
   const imgWidth = 200;
   const imgHeight = 270;
