@@ -16,10 +16,12 @@ This task is completed as part of the recruitment internship process at Mashroom
 git clone https://github.com/nour-ayari/Task.git
 cd Task
 
+
 2. Install dependencies:
 
 ```bash
 npm install
+
 
 3. Start the development server:
 
