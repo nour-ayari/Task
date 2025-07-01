@@ -23,11 +23,11 @@ const imageMap = tabLabels.reduce((map, tab) => {
 export const Home = () => {
       const [selectedTab, setSelectedTab] = useState("Interior");
 
-    return (<div className="min-h-full container">
+    return (<div className="min-h-full ">
     <Navbar/>
 
 
-    <div className="w-full  mx-auto ">
+    <div className="w-full  mx-auto md-10">
        <BodySection/>
           <div className="">
         <Tabs tabs={tabLabels} selected={selectedTab} onSelect={setSelectedTab} />

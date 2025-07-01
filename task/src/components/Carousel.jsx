@@ -6,7 +6,7 @@ export const Carousel = ({ images = [] }) => {
   const visibleCount = 5;
   const peekWidth = 10; 
   const imgWidth = 200;
-  const imgHeight = 270;
+  const imgHeight = 290;
   const gap = 16;
 
   const totalVisibleWidth = visibleCount * imgWidth + (visibleCount - 1) * gap;
