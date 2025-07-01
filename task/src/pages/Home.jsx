@@ -10,10 +10,10 @@ const tabLabels = ["Furniture", "Cosmetic", "Interior", "Fashion"];
 const imageMap = tabLabels.reduce((map, tab) => {
   const folder = tab;
   const imageCount = {
-    Furniture: 5,
+    Furniture: 7,
     Cosmetic: 7,
-    Interior: 6,
-    Fashion: 4,
+    Interior: 7,
+    Fashion: 7,
   }[tab];
 
   map[tab] = Array.from({ length: imageCount }, (_, i) => `public/images/${folder}/${i + 1}.png`);
