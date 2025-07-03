@@ -21,7 +21,7 @@ export const Navbar = () => {
             className="h-12 w-32 flex items-center cursor-pointer"
             onClick={() => navigate("/")}
           >
-            <img src="src/assets/NavLogo.png" alt="Logo" />
+            <img src="/images/NavLogo.png" alt="Logo" />
           </div>
         </div>
 

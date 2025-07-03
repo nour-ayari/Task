@@ -16,7 +16,7 @@ const imageMap = tabLabels.reduce((map, tab) => {
     Fashion: 7,
   }[tab];
 
-  map[tab] = Array.from({ length: imageCount }, (_, i) => `public/images/${folder}/${i + 1}.png`);
+  map[tab] = Array.from({ length: imageCount }, (_, i) => `/images/${folder}/${i + 1}.png`);
   return map;
 }, {});
 
