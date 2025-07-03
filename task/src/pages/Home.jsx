@@ -1,4 +1,4 @@
-import { Navbar } from "../components/navbar";
+import { Navbar } from "../components/Navbar";
 import {BodySection} from "../components/BodySection";
 import {Tabs} from "../components/Tabs"
 import {Carousel} from "../components/Carousel"
